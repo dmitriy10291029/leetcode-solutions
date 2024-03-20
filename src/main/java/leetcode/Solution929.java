@@ -3,6 +3,8 @@ package leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
+// https://leetcode.com/problems/unique-email-addresses/description/
+
 public class Solution929 {
     public String simplifyEmail(String email) {
         StringBuilder sb = new StringBuilder();
