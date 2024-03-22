@@ -1,5 +1,7 @@
 package leetcode;
 
+// https://leetcode.com/problems/valid-mountain-array/submissions/1211183468/
+
 public class Solution941 {
     public boolean validMountainArray(int[] arr) {
         if (arr.length <= 2) {
