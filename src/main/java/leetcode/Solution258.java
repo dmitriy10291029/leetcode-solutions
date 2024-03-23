@@ -1,5 +1,7 @@
 package leetcode;
 
+// https://leetcode.com/problems/add-digits/
+
 public class Solution258 {
     static public int addDigits(int nums) {
         if (nums / 10 == 0) {
