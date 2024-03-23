@@ -2,7 +2,7 @@ package leetcode;
 
 // https://leetcode.com/problems/sqrtx/description/
 
-public class Solution69 {
+public class Solution069 {
     public int mySqrt(int x) {
         if (x == 1) {
             return 1;

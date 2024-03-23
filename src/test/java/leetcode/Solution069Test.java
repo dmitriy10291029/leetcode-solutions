@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Solution69Test {
-    Solution69 s = new Solution69();
+class Solution069Test {
+    Solution069 s = new Solution069();
 
     @Test
     void Test1() {
