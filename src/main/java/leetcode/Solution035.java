@@ -2,7 +2,7 @@ package leetcode;
 
 // https://leetcode.com/problems/search-insert-position/
 
-public class Solution35 {
+public class Solution035 {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length;
