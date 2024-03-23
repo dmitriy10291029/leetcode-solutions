@@ -2,8 +2,6 @@ package leetcode;
 
 // https://leetcode.com/problems/peak-index-in-a-mountain-array/
 
-import javax.annotation.processing.SupportedSourceVersion;
-
 public class Solution852 {
     public int peakIndexInMountainArray(int[] arr) {
         int left = 0;
