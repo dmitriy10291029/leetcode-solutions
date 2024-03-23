@@ -2,8 +2,6 @@ package leetcode;
 
 // https://leetcode.com/problems/move-zeroes/description/
 
-import java.util.Arrays;
-
 public class Solution283 {
     public void moveZeroes(int[] nums) {
         int iterator = 0;
