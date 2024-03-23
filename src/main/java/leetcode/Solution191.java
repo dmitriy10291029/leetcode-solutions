@@ -1,5 +1,7 @@
 package leetcode;
 
+// https://leetcode.com/problems/number-of-1-bits/description/
+
 public class Solution191 {
     public int hammingWeight(int n) {
         int ans = 0;
