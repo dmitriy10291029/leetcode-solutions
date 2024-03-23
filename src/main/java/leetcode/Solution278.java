@@ -12,8 +12,10 @@ public class Solution278 {
         int first = 1;
         int last = n;
 
-        while (last - first > 1) {
-            int mid = getMid(first, last);
+        while (last >= first) {
+            // without casting:
+            // int mid = getMid(first, last);
+            int mid = (int) (((long) first + last) / 2);
 
             if (isBadVersion(mid)) {
                 last = mid - 1;
