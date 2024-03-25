@@ -1,5 +1,7 @@
 package leetcode;
 
+// https://leetcode.com/problems/valid-anagram/submissions/1213806109/
+
 class Solution242 {
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) {
