@@ -2,6 +2,10 @@ package leetcode;
 
 // https://leetcode.com/problems/n-th-tribonacci-number/description/
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Solution1137 {
     public int tribonacci(int n) {
         int[] array = new int[n + 3];
