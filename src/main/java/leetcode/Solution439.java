@@ -2,7 +2,6 @@ package leetcode;
 
 // https://leetcode.com/problems/intersection-of-two-arrays/
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
