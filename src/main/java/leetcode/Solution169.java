@@ -1,5 +1,7 @@
 package leetcode;
 
+// https://leetcode.com/problems/majority-element/submissions/1213855059/
+
 import java.util.HashMap;
 import java.util.Map;
 
