@@ -2,6 +2,8 @@ package leetcode;
 
 import java.util.Arrays;
 
+// https://leetcode.com/problems/min-stack/submissions/1241631426/
+
 public class Solution155 {
     public static class MinStack {
         int[] store;
