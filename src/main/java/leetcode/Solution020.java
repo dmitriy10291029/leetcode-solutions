@@ -2,18 +2,18 @@ package leetcode;
 
 // https://leetcode.com/problems/valid-parentheses/description/
 
-import java.util.Stack;
+import java.util.ArrayDeque;
 
 public class Solution020 {
     public boolean isValid(String s) {
-        Stack<Character> stack = new Stack<>();
+        ArrayDeque<Character> stack = new ArrayDeque<>();
 
         for (char ch : s.toCharArray()) {
             if (ch == '(' || ch == '{' || ch == '[') {
                 stack.push(ch);
             } else {
                 char head;
-                if (stack.empty()) {
+                if (stack.size() == 0) {
                     return false;
                 } else {
                     head = stack.pop();
@@ -26,6 +26,6 @@ public class Solution020 {
             }
         }
 
-        return stack.empty();
+        return stack.size() == 0;
     }
 }
